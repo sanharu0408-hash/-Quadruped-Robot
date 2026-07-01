@@ -14,7 +14,7 @@ Please print the following components from the `/STL` folder.
 The recommended material is PLA or PETG with at least 20% infill for durability.
 
 | File Name | Quantity | Description |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | `frame_bottom.stl` | 1 | Main lower chassis |
 | `frame_top.stl` | 1 | Upper cover / battery holder |
 | `hip_1.stl` | 2 | Inner hip joints |
@@ -27,27 +27,35 @@ The recommended material is PLA or PETG with at least 20% infill for durability.
 ## 🚀 Getting Started
 
 ### 1. Arduino Setup
+
 1. Open `arduino_code/arduino_code.ino` in the Arduino IDE.
 2. Install the `Adafruit PWM Servo Driver` library.
 3. Upload the code to your Arduino R4.
 
 ### 2. Python Controller Setup
+
 1. Install the required libraries:
    ```bash
    pip install pygame pyserial
-Connect your controller (Xbox/PS4/PC Controller).
-Run the application:
-code
-Bash
-python controller/main.py
-🎮 Controls
-Button	Action
-B	Toggle Walking Mode ON/OFF
-A	Bow (Greeting)
-X	Jump
-Y	Wave Hand
-L Stick	Move Forward / Backward
-R Stick	Turn Left / Right
-🛠️ Requirements
-Hardware: Arduino R4, PCA9685 PWM Driver, 8x MG90S Servos.
-Software: Python 3.x, Arduino IDE.
+   ```
+2. Connect your controller (Xbox / PS4 / PC Controller).
+3. Run the application:
+   ```bash
+   python controller/main.py
+   ```
+
+## 🎮 Controls
+
+| Button | Action |
+| :--- | :--- |
+| **B** | Toggle Walking Mode ON/OFF |
+| **A** | Bow (Greeting) |
+| **X** | Jump |
+| **Y** | Wave Hand |
+| **L Stick** | Move Forward / Backward |
+| **R Stick** | Turn Left / Right |
+
+## 🛠️ Requirements
+
+- **Hardware:** Arduino R4, PCA9685 PWM Driver, 8x MG90S Servos
+- **Software:** Python 3.x, Arduino IDE
