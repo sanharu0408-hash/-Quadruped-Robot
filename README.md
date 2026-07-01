@@ -38,7 +38,9 @@ The recommended material is PLA or PETG with at least 20% infill for durability.
    ```bash
    pip install pygame pyserial
    ```
-2. Connect your controller (Xbox / PS4 / PC Controller).
+
+2. Connect your controller (Xbox/PS4/PC Controller).
+
 3. Run the application:
    ```bash
    python controller/main.py
