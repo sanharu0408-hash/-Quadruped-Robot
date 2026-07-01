@@ -22,6 +22,7 @@ The recommended material is PLA or PETG with at least 20% infill for durability.
 | `left_knee.stl` | 2 | Knee parts for Left side |
 | `right_knee.stl` | 2 | Knee parts for Right side |
 
+*Note: In the screenshot, `frame_top` was labeled as `frame_tom`. Please rename it for consistency.*
 
 ## 🚀 Getting Started
 
@@ -34,3 +35,19 @@ The recommended material is PLA or PETG with at least 20% infill for durability.
 1. Install the required libraries:
    ```bash
    pip install pygame pyserial
+Connect your controller (Xbox/PS4/PC Controller).
+Run the application:
+code
+Bash
+python controller/main.py
+🎮 Controls
+Button	Action
+B	Toggle Walking Mode ON/OFF
+A	Bow (Greeting)
+X	Jump
+Y	Wave Hand
+L Stick	Move Forward / Backward
+R Stick	Turn Left / Right
+🛠️ Requirements
+Hardware: Arduino R4, PCA9685 PWM Driver, 8x MG90S Servos.
+Software: Python 3.x, Arduino IDE.
