@@ -22,7 +22,6 @@ The recommended material is PLA or PETG with at least 20% infill for durability.
 | `left_knee.stl` | 2 | Knee parts for Left side |
 | `right_knee.stl` | 2 | Knee parts for Right side |
 
-*Note: In the screenshot, `frame_top` was labeled as `frame_tom`. Please rename it for consistency.*
 
 ## 🚀 Getting Started
 
